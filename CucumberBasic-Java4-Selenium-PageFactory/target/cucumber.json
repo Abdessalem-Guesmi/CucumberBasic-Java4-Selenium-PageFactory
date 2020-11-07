@@ -1,0 +1,161 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-02T19:31:13.199Z",
+        "line": 12,
+        "name": "Check login is successful with valid credentials",
+        "description": "",
+        "id": "feature-to-test-login-for-facebook-functionality;check-login-is-successful-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11262000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepsDefinitions.LoginFacebookStepsPageFactory.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 362000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters  sselenium674@gmail.com and Selenium01",
+            "match": {
+              "arguments": [
+                {
+                  "val": " sselenium674@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "Selenium01",
+                  "offset": 40
+                }
+              ],
+              "location": "StepsDefinitions.LoginFacebookStepsPageFactory.user_enters_user1_and_user1(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 184000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on button",
+            "match": {
+              "location": "StepsDefinitions.LoginFacebookStepsPageFactory.clicks_on_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8853000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "StepsDefinitions.LoginFacebookStepsPageFactory.user_is_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2E"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-02T19:31:33.975Z",
+        "line": 13,
+        "name": "Check login is successful with valid credentials",
+        "description": "",
+        "id": "feature-to-test-login-for-facebook-functionality;check-login-is-successful-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8488000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepsDefinitions.LoginFacebookStepsPageFactory.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 394000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters  sseleniumCucumber@gmail.com and Selenium02",
+            "match": {
+              "arguments": [
+                {
+                  "val": " sseleniumCucumber@gmail.com",
+                  "offset": 12
+                },
+                {
+                  "val": "Selenium02",
+                  "offset": 45
+                }
+              ],
+              "location": "StepsDefinitions.LoginFacebookStepsPageFactory.user_enters_user1_and_user1(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 136000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on button",
+            "match": {
+              "location": "StepsDefinitions.LoginFacebookStepsPageFactory.clicks_on_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3241000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "StepsDefinitions.LoginFacebookStepsPageFactory.user_is_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@E2E"
+          }
+        ]
+      }
+    ],
+    "name": "feature to test login for Facebook functionality",
+    "description": "",
+    "id": "feature-to-test-login-for-facebook-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
